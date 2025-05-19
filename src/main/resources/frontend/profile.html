@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профиль студента</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/profile.css">
+</head>
+<body>
+    <header>
+        <h1>Профиль студента</h1>
+    </header>
+
+    <nav>
+        <a href="/">Главная</a>
+        <a href="/profile" class="active">Профиль</a>
+        <a href="/news">Новости</a>
+        <a href="/schedule">Расписание</a>
+        <a href="/login" id="logout">Выход</a>
+    </nav>
+
+    <div class="profile-container">
+        <div class="profile-info">
+            <h2>Информация о студенте</h2>
+            <div id="student-info">
+                <p><strong>Имя:</strong> <span id="student-name"></span></p>
+                <p><strong>Email:</strong> <span id="student-email"></span></p>
+                <p><strong>Класс:</strong> <span id="student-class"></span></p>
+                <p><strong>Посещаемость:</strong> <span id="student-attendance"></span>%</p>
+                <p><strong>Оценки:</strong> <span id="student-grades"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/profile.js"></script>
+</body>
+</html> 
